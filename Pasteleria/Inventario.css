@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Play:wght@400;700&display=swap');
+
+body{
+    background-image: url(img/bginv.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Play', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    /* display: flex;
+    align-items: center; */
+}
+
+li{
+    list-style: none;
+    font-size: 18px;
+    margin: 10px;
+    color: rgb(99, 81, 81)
+    font-weight:200;
+}
+
+div#titulo{
+    display:flex;
+    flex-direction: column;
+    color: rgb(99, 81, 81);
+}
+
+form.buscar{
+    display:flex;
+    justify-content: flex-end;
+    margin-left: 400px;
+}
+
+div#categorias{
+    display:flex;
+    flex-direction: column;
+}
+
+ul.menu{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    margin-left: 50px;
+    
+}
+
+
+li.producto{
+   width:151px;
+   color: #ffffff;
+   font-weight: bold;
+}

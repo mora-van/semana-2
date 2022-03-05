@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Play:wght@400;700&display=swap');
+
+body{
+    background-color:   #f8f9f9;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    }
+
+div.encabezado{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Play', sans-serif;
+    border: 2px solid black
+
+}
+
+ul.listado{
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Play', sans-serif;
+    display: inline-block;
+    align-items: center;
+    margin-left: 260px;
+}
+
+li{
+    list-style: none;
+    margin-right: 80px;
+    display: inline-block;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 200;
+    }
+
+div.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }

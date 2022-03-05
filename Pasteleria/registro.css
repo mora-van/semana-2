@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Play:wght@400;700&display=swap');
+
+body{
+    color:   #f8f9f9;
+    background-color: #34495e;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Play', sans-serif;
+    }
+
+div.form_container{
+    
+    margin: 70px;
+    display: inline-block;
+    align-content: center;
+    margin: 80px;
+}
+
+form{
+    /* margin: 150px; */
+    
+    display: inline-block;
+    align-content: center;
+    margin-left: 70px;
+    margin-top: 5px;
+    
+    
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* label#email-label{
+    margin: 1px;
+    
+} */
+
+input.form_input{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+input.form_sesion{
+    margin-left: 150px;
+    margin-top:20px;
+    color: #34495e;
+}
+
+input:focus{
+    background-color:#f8f9f9 ;
+}
+
+label.name-label{
+    margin: 10px;
+}
+
+div.container_registro{
+   
+    margin-top: 30px;
+    display: inline-block;
+    align-content: center;
+    margin: 60px;
+    padding-top: 50px;
+}
+
+label.apellido{
+    margin-left: 30px;
+}
+
+form.form2{
+    border:2px solid purple;
+    
+
+}

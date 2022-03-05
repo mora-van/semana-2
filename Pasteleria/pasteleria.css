@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Play:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color:#34495e;
+    color: #ffffff;
+    height: 150px;
+}
+
+a{
+    color: #ffffff;
+    display: flex;
+    justify-content:flex-end;
+    margin: 15px;
+    }
+
+a#registro{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    }
+
+nav{
+    margin-left: 300px;
+    display: flex;
+    float: right;
+    }
+
+a.nav-link{
+    list-style: none;
+    font-size: 15px;
+    width:80px;
+    text-decoration: none;
+}
+
+form.buscar{
+    margin: 10px;
+   }
+
+#title{
+    margin-right: 800px;
+    margin-left:50px;
+    }
+
+h1{
+    margin-left: 500px;
+    
+    }
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    }
+
+body{
+    background-color:   #f8f9f9;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Play', sans-serif;
+    }
+
+div.container{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+
+div.pastel{
+    width: 120px;
+    margin: 100px;
+    padding: 1px;
+    }
+
+button{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: 40px;
+  
+}
+
+button.sabores{
+    background-color: #383b3d;
+    color: #f8f9f9;
+    margin-top: 10px;
+    margin-left: 60px;
+    justify-content: center;
+}
+
+img.imagen{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+button.pedido{
+    background-color: #383b3d;
+    color: #f8f9f9;
+    margin-left:auto;
+    margin-right:auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer{
+    background-color:#34495e;
+    height: 40px;
+    color: #f8f9f9;
+    margin: 0%;
+}
+
+div.redes_sociales{
+    margin-left: 250px;
+   
+}
+
+div.informacion{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+img.img1{
+    margin-right: 30px;
+}
+
+div.copyright{
+    margin-top: 5px;
+    margin-left: 200px;
+}
+
+img.decoracion{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 250px;
+    height: 250px;
+    }
+
+div.decoracion{
+    width: 120px;
+    margin: 100px;
+    padding: 1px;
+    }
+
+p{
+    font-size: 12px;
+}
